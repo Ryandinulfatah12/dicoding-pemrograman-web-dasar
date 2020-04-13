@@ -15,12 +15,12 @@ header {
 .jumbotron {
 	background-color: #222830;
 	justify-content: center;
-	height: 100px;
+	height: 110px;
 	text-align: center;
-	padding: 5px;
+	padding: 18px;
 }
-.jumnotron img {
-	padding-top: 10px;
+.jumbotron img {
+	border: 1px solid #f4841a;
 }
 .jumbotron h3 {
 	color: #f4841a;
@@ -261,6 +261,10 @@ footer {
 
 	.hero-post .featured-post {
 		width: 80%;
+	}
+
+	.jumbotron h3 {
+		font-size: 15px;
 	}
 }
 /*End*/
